@@ -1,6 +1,6 @@
+/*
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { UserAuth } from "../context/AuthContext";
 
 // Define login functions variables
 const Login = () => {
@@ -37,11 +37,11 @@ const Login = () => {
         <div className="max-w-[450px] h-[600px] mx-auto bg-black/75 text-white">
           <div className="max-w-[320px] mx-auto py-16">
             
-            {/*Header 1 - Sign in*/}
+            
             <h1 className="text-3xl font-bold">Sign In</h1>
             {error ? <p className="p-3 bg-red-400 my-2">{error}</p> : null}
             
-            {/*Create form for user to submit credentials*/}
+            
             <form onSubmit={handleSubmit} className="w-full flex flex-col py-4">
               <input
                 onChange={(e) => setEmail(e.target.value)}
@@ -58,7 +58,7 @@ const Login = () => {
                 autoComplete="current-password"
               />
               
-              {/*Create sign in button*/}
+              
               <button className="bg-blue-600 py-3 my-6 rounded font-bold">
                 Sign In
               </button>
@@ -68,12 +68,12 @@ const Login = () => {
                   Remember me
                 </p>
                 
-                {/*{/*Alternate button if user needs help*/}
+                
                 <p>Need Help?</p>
               </div>
               <p className="py-8">
                 
-                {/*Alternate button if user needs to sign up*/}
+                
                 <span className="text-gray-600">New to Kid's Watch?</span>{" "}
                 <Link to="/signup">Sign Up</Link>
               </p>
@@ -86,3 +86,4 @@ const Login = () => {
 };
 
 export default Login;
+*/
